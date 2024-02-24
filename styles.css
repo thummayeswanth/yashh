@@ -1,0 +1,263 @@
+/* CSS styles for the header section */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff; /* Background color corrected */
+}
+/* Search icon styles */
+/* Search icon styles */
+.search-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10in ;
+    margin-top: -20px;
+    fill: #000; /* Adjust color as needed */
+    cursor: pointer;
+  }
+  
+  /* Social media icon styles */
+  .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align items to the right */
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #333; /* Adjust background color as needed */
+    border-radius: 50%;
+    margin-right: 2in; /* Adjust spacing between icons as needed */
+    text-align: center;
+    line-height: 40px;
+    color: #333; /* Adjust icon color as needed */
+  }
+  
+  .social-icons a:hover {
+    background-color: #666; /* Adjust hover background color as needed */
+  }
+  
+  /* Include Font Awesome CSS for social media icons */
+  
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.title {
+    margin-left: 20px;
+     /* Adjust margin as per your preference */
+}
+
+.title h1,
+.title p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.header-image {
+    margin-left: 2in; /* Add gap of 2 inches */
+}
+
+.header-image img {
+    width: 150px;
+    height: auto;
+    margin-right: 10px; /* Adjust margin between images as needed */
+}
+.horizontal-nav {
+    background-color: #21005b;
+    color: #fff;
+    padding: 8px 0;
+    margin-top:10px ;
+    margin-left:0px;
+}
+
+.horizontal-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+.horizontal-nav ul li {
+    margin-right: 80px;
+    width: 150px; /* Adjust the width as needed */
+    margin-left: 40px;
+    margin-right: 50px;
+
+}
+
+.horizontal-nav ul li:last-child {
+    margin-right: 30px;
+}
+
+.horizontal-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.horizontal-nav ul li a:hover {
+    color: #ff0; /* Change color on hover */
+}
+.series-section {
+    background-color: #333; /* Background color for the series section */
+    color: #fff;
+}
+
+.horizontal-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.horizontal-nav ul li {
+    margin-right: 20px;
+    position: relative; /* Position relative for submenu */
+}
+.horizontal-nav ul li ul.submenu {
+    display: none;
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background-color: #fbfcff; /* Background color for submenu */
+    padding: -10px; /* Decrease the padding */
+    margin-top: 10px; /* Add a negative margin-top to reduce the height */
+    margin-left: -50px;
+}
+
+.horizontal-nav ul li ul.submenu li {
+    display: block; /* Ensure each submenu item appears in a separate block */
+    margin-bottom: 10px; /* Add margin between each submenu item */
+}
+
+.horizontal-nav ul li ul.submenu li a {
+    display: block; /* Make each submenu item a block element */
+    font-weight: normal; /* Make the submenu letters unbold */
+    color: black; /* Make the submenu letters black */
+    padding: 5px; /* Add padding to submenu items */
+}
+
+.horizontal-nav ul li:hover ul.submenu {
+    display: block; /* Show submenu on parent hover */
+    margin-right: 1in;
+}
+
+
+.horizontal-nav ul li:hover ul.submenu {
+    display: block; /* Show submenu on parent hover */
+    margin-right: 1in;
+}
+
+
+.horizontal-nav ul li a {
+    text-decoration: none;
+    color: #fffefe;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.horizontal-nav ul li a:hover {
+    color: #ff0; /* Change color on hover */
+}
+
+main {
+    padding: 20px;
+    background-color: #f0f0f0; /* Light gray background for main content */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(135, 206, 250, 0.2); /* Light sky blue with 20% opacity */
+    padding: 20px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.whats-new, .photo-gallery, .data-section {
+    flex-basis: calc(33.33% - 20px); /* 3 parts with some spacing */
+    margin-bottom: 20px;
+}
+.whats-new {
+    background-color: rgb(252, 160, 74); /* Set the background color */
+    padding: 20px; /* Add padding for better appearance */
+}
+
+.whats-new {
+    background-color: rgb(243, 248, 249); /* Set the background color */
+    padding: 20px; /* Add padding for better appearance */
+}
+
+.whats-new a {
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make text bold */
+}
+
+.whats-new div {
+    margin-bottom: 10px; /* Add margin between each block */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Align items vertically */
+}
+
+.arrow::before {
+    content: "\2192"; /* Unicode for right arrow (→) */
+    margin-right: 10px; /* Adjust spacing between arrow and text */
+    width: 20px; /* Increase width of the arrow */
+    display: inline-block; /* Make sure the arrow is displayed inline */
+}
+.photo-item {
+    margin-bottom: 10px;
+    position: relative; /* Add relative positioning to the container */
+}
+
+.photo-item img {
+    width: 100%;
+    height: auto;
+    left: -50px;
+}
+
+/* Apply styling to the image with the class jai-shankar */
+img.jai-shankar {
+    width: 150px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Position the image absolutely within its container */
+    top: 10px; /* Adjust top position */
+    left: -50px; /* Adjust left position */
+}
+
+
+#read-more-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
